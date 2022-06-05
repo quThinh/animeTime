@@ -1,0 +1,30 @@
+{
+  "name": "animewebsever",
+  "version": "1.0.0",
+  "description": "Anime Web Sever",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quThinh/animeWebSever.git"
+  },
+  "keywords": [
+    "anime",
+    "sever"
+  ],
+  "author": "ThinhTQ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quThinh/animeWebSever/issues"
+  },
+  "homepage": "https://github.com/quThinh/animeWebSever#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
